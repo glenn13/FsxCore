@@ -1,0 +1,224 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "code": "CMF",
+      "title": "CMF Kabul",
+      "description": "CMF Kabul"
+    },
+    {
+      "id": 2,
+      "code": "PKBL",
+      "title": "RMC Kabul",
+      "description": "RMC Kabul"
+    },
+    {
+      "id": 3,
+      "code": "PJBD",
+      "title": "RMC Jalalabad",
+      "description": "RMC Jalalabad"
+    },
+    {
+      "id": 4,
+      "code": "NLCW",
+      "title": "NLC Wardak",
+      "description": "NLC Wardak"
+    }
+  ],
+  "projectSites": [
+    {
+      "id": 1,
+      "code": "CMF",
+      "title": "CMF Kabul",
+      "description": "CMF Kabul",
+      "projectName": "ANA"
+    },
+    {
+      "id": 2,
+      "code": "PKBL",
+      "title": "RMC Kabul",
+      "description": "RMC Kabul",
+      "projectName": "ANP"
+    },
+    {
+      "id": 3,
+      "code": "PJBD",
+      "title": "RMC Jalalabad",
+      "description": "RMC Jalalabad",
+      "projectName": "ANA"
+    },
+    {
+      "id": 4,
+      "code": "NLCW",
+      "title": "NLC Wardak",
+      "description": "NLC Wardak",
+      "projectName": "ANP"
+    }
+  ],
+  "pageModules": [
+    {
+      "id": 1,
+      "parentModuleId": null,
+      "moduleName": "Dashboard",
+      "visible": false
+    },
+    {
+      "id": 2,
+      "parentModuleId": null,
+      "moduleName": "Asset",
+      "visible": false
+    },
+    {
+      "id": 3,
+      "parentModuleId": 2,
+      "moduleName": "Asset Inventory",
+      "visible": false
+    },
+    {
+      "id": 4,
+      "parentModuleId": 2,
+      "moduleName": "Asset Disposition",
+      "visible": false
+    }
+  ],
+  "pageModuleActions": [
+    {
+      "id": 1,
+      "parentActionId": null,
+      "actionName": "Add",
+      "moduleId": 3,
+      "visible": false
+    },
+    {
+      "id": 2,
+      "parentActionId": null,
+      "actionName": "Edit",
+      "moduleId": 3,
+      "visible": false
+    },
+    {
+      "id": 3,
+      "parentActionId": null,
+      "actionName": "Delete",
+      "moduleId": 3,
+      "visible": false
+    },
+    {
+      "id": 4,
+      "parentActionId": null,
+      "actionName": "View",
+      "moduleId": 3,
+      "visible": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Phibee",
+      "lastName": "Deinla",
+      "username": "administrator",
+      "emailAddress": "pdeinla011@gmail.com",
+      "address": "Deira, Dubai",
+      "designationId": 1,
+      "designation": {
+        "id": 1,
+        "title": "Web Developer",
+        "description": ""
+      },
+      "contactNo": "0344944747",
+      "stateZipCode": "4023",
+      "status": "Active",
+      "countryId": 1
+    }
+  ],
+  "userProjects": [
+    {
+      "selected": true,
+      "id": 1,
+      "code": "CMF",
+      "title": "CMF Kabul",
+      "description": "CMF Kabul",
+      "projectName": "ANA"
+    },
+    {
+      "selected": false,
+      "id": 2,
+      "code": "PKBL",
+      "title": "RMC Kabul",
+      "description": "RMC Kabul",
+      "projectName": "ANP"
+    },
+    {
+      "selected": false,
+      "id": 3,
+      "code": "PJBD",
+      "title": "RMC Jalalabad",
+      "description": "RMC Jalalabad",
+      "projectName": "ANA"
+    },
+    {
+      "selected": false,
+      "id": 4,
+      "code": "NLCW",
+      "title": "NLC Wardak",
+      "description": "NLC Wardak",
+      "projectName": "ANP"
+    }
+  ],
+  "userPageModules": [
+    {
+      "id": 1,
+      "parentModuleId": null,
+      "moduleName": "Dashboard",
+      "visible": false
+    },
+    {
+      "id": 2,
+      "parentModuleId": null,
+      "moduleName": "Asset",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "parentModuleId": 2,
+      "moduleName": "Asset Inventory",
+      "visible": false
+    },
+    {
+      "id": 4,
+      "parentModuleId": 2,
+      "moduleName": "Asset Disposition",
+      "visible": true
+    }
+  ],
+  "userPageModuleActions": [
+    {
+      "id": 1,
+      "parentActionId": null,
+      "actionName": "Add",
+      "moduleId": 3,
+      "visible": false
+    },
+    {
+      "id": 2,
+      "parentActionId": null,
+      "actionName": "Edit",
+      "moduleId": 3,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "parentActionId": null,
+      "actionName": "Delete",
+      "moduleId": 3,
+      "visible": false
+    },
+    {
+      "id": 4,
+      "parentActionId": null,
+      "actionName": "View",
+      "moduleId": 3,
+      "visible": true
+    }
+  ]
+}

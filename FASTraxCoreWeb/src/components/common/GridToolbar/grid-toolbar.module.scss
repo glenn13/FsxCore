@@ -1,0 +1,18 @@
+.container {
+  // height: 110px;
+  min-height: 106.66px;
+  display: flex;
+  width: 100%;
+}
+
+.view-button {
+  vertical-align: middle;
+
+  span {
+    font-size: 24px;
+  }
+}
+
+.dropdown {
+  min-width: 160px;
+}

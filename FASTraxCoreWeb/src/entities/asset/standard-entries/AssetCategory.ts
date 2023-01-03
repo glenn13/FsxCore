@@ -1,0 +1,5 @@
+interface AssetCategory extends StandardEntry {}
+
+
+
+

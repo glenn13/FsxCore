@@ -1,0 +1,6 @@
+export enum WORKORDERCATEGORYTYPE {
+    GENERALASSET = 1,
+    VEHICLE = 2,
+    COMPONENT = 3,
+    BOM = 4
+}

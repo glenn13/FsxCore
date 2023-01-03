@@ -1,0 +1,36 @@
+.label {
+  align-self: start;
+  background: #fff;
+  padding: 0 4px;
+  font-size: 9pt;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #888787;
+  margin-bottom: -11px;
+  margin-left: 7px;
+  z-index: 10;
+  white-space: nowrap;
+  border-radius: 7px;
+}
+
+.dot {
+  z-index: 10;
+  position: absolute;
+  background-color: #fc8181;
+  border: solid 2px white;
+  box-sizing: content-box;
+  height: 6px;
+  width: 6px;
+  border-radius: 100%;
+  right: 0px;
+  animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

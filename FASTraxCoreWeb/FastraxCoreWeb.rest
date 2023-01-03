@@ -1,0 +1,15 @@
+@host = http://localhost:4444/api
+
+### Authenticate user's credential
+POST {{host}}/authenticate HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "administrator",
+  "password": "123456"
+}
+
+### Search user's projects by userId
+@userId = 1
+GET {{host}}/users/{{userId}}/projects HTTP/1.1
+Content-Type: application/json

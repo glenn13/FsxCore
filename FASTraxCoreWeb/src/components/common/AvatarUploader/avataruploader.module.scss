@@ -1,0 +1,10 @@
+.avatarImage {
+  object-fit: cover;
+  height: 100%;
+  box-shadow: 0px 3px 13px -5px var(--shadow-color);
+  border: thin solid --shadow-color;
+}
+
+.avatarImageBtn {
+  box-shadow: 0px 3px 13px -5px var(--shadow-color);
+}

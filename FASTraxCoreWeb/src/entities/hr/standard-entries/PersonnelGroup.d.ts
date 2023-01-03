@@ -1,0 +1,1 @@
+interface PersonnelGroup extends StandardEntry { }

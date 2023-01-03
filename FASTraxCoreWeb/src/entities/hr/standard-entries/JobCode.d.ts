@@ -1,0 +1,1 @@
+interface JobCode extends StandardEntry { }

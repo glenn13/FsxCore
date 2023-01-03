@@ -1,0 +1,1 @@
+interface AssetModelYear extends StandardEntry {}

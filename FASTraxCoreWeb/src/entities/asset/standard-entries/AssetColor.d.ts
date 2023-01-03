@@ -1,0 +1,2 @@
+interface AssetColor extends StandardEntry {}
+

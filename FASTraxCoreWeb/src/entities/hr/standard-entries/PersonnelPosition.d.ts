@@ -1,0 +1,2 @@
+interface PersonnelPosition extends StandardEntry { }
+

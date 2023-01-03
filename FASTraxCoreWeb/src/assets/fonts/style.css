@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'ams-icons';
+  src: url('ams-icons.eot?2ex0dw');
+  src: url('ams-icons.eot?2ex0dw#iefix') format('embedded-opentype'),
+    url('ams-icons.ttf?2ex0dw') format('truetype'), url('ams-icons.woff?2ex0dw') format('woff'),
+    url('ams-icons.svg?2ex0dw#ams-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='ams-'],
+[class*=' ams-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ams-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ams-save-print:before {
+  content: '\e92f';
+}
+.ams-asset-inspection:before {
+  content: '\e901';
+}
+.ams-flag:before {
+  content: '\e902';
+}
+.ams-unflag:before {
+  content: '\e903';
+}
+.ams-back:before {
+  content: '\e904';
+}
+.ams-arrow-left:before {
+  content: '\e905';
+}
+.ams-arrow-right:before {
+  content: '\e906';
+}
+.ams-visibility-hidden:before {
+  content: '\e920';
+}
+.ams-visibility-visible:before {
+  content: '\e921';
+}
+.ams-search1:before {
+  content: '\e922';
+}
+.ams-print-preview:before {
+  content: '\e923';
+}
+.ams-print:before {
+  content: '\e924';
+}
+.ams-add:before {
+  content: '\e925';
+}
+.ams-edit:before {
+  content: '\e926';
+}
+.ams-thumbnail:before {
+  content: '\e927';
+}
+.ams-list:before {
+  content: '\e928';
+}
+.ams-asset-disposition:before {
+  content: '\e91f';
+}
+.ams-trash:before {
+  content: '\e91b';
+}
+.ams-human-resource:before {
+  content: '\e91c';
+}
+.ams-currency:before {
+  content: '\e91d';
+}
+.ams-users:before {
+  content: '\e91e';
+}
+.ams-open-task:before {
+  content: '\e91a';
+}
+.ams-project-information:before {
+  content: '\e913';
+}
+.ams-report1:before {
+  content: '\e914';
+}
+.ams-survey:before {
+  content: '\e915';
+}
+.ams-supply-chain:before {
+  content: '\e916';
+}
+.ams-services:before {
+  content: '\e917';
+}
+.ams-my-panel:before {
+  content: '\e918';
+}
+.ams-asset:before {
+  content: '\e919';
+}
+.ams-chart:before {
+  content: '\e907';
+}
+.ams-check:before {
+  content: '\e908';
+}
+.ams-cog:before {
+  content: '\e909';
+}
+.ams-cross:before {
+  content: '\e90a';
+}
+.ams-dashboard:before {
+  content: '\e90b';
+}
+.ams-excel:before {
+  content: '\e90c';
+}
+.ams-horizontal-ellipse:before {
+  content: '\e90d';
+}
+.ams-notification:before {
+  content: '\e90e';
+}
+.ams-pdf:before {
+  content: '\e90f';
+}
+.ams-radial-menu:before {
+  content: '\e910';
+}
+.ams-report:before {
+  content: '\e911';
+}
+.ams-search:before {
+  content: '\e912';
+}
+.ams-signin:before {
+  content: '\e929';
+}
+.ams-signout:before {
+  content: '\e92a';
+}
+.ams-stocks:before {
+  content: '\e92b';
+}
+.ams-toggle-list:before {
+  content: '\e92c';
+}
+.ams-truck:before {
+  content: '\e92d';
+}
+.ams-vertical-ellipse:before {
+  content: '\e92e';
+}
+.ams-word:before {
+  content: '\e930';
+}
+.ams-support:before {
+  content: '\e900';
+}

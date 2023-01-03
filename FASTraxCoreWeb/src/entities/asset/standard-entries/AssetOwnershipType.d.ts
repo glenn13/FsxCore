@@ -1,0 +1,2 @@
+interface AssetOwnershipType extends StandardEntry {}
+

@@ -1,0 +1,2 @@
+interface AssetDepartment extends StandardEntry { }
+

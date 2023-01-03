@@ -1,0 +1,14 @@
+{
+	"App": {
+		"apiUrl": "http://10.0.10.45:8067/api",
+		"secretKey": "133454454444444XCFDFDFDF"
+	},
+	"Report": {
+		"url": "http://10.0.10.46:8067"
+	},
+	"MapBox": {
+		"token": ""
+	}
+}
+
+    

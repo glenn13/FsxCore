@@ -1,0 +1,1 @@
+interface AssetStatus extends StandardEntry {}

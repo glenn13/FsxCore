@@ -1,0 +1,37 @@
+.header-page-records {
+  color: #888a8e;
+  font-weight: 300;
+}
+
+.filter-criteria-part {
+  background: white;
+
+  .grid_bottom_filter_wrap {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 0;
+  }
+
+  span {
+    background: #4e6069;
+    padding: 5px 8px;
+    color: #fff;
+    margin-right: 5px;
+    font-size: 0.95em;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+
+  span > i {
+    vertical-align: middle;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #3a464c;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.55em;
+    width: 13px;
+    height: 13px;
+  }
+}

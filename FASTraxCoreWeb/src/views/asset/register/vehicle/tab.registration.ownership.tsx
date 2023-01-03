@@ -1,0 +1,24 @@
+import React from 'react';
+import FsxFormikInput from '@app/components/common/FsxFormik/FsxFormikInput';
+
+export interface OwnershipProps {
+    isReadOnly: boolean;
+}
+
+const Ownership: React.FC<OwnershipProps> = ({isReadOnly}) => {
+    return(
+        <>
+            <div className="col-span-3">
+                <FsxFormikInput label="Purchased By:" name={`vehicleOwnership.purchasedBy`} disabled={isReadOnly}/>
+            </div>
+
+            <div className="col-span-1">
+                <FsxFormikInput label="Customer Code:" name={`vehicleOwnership.customerCode`} disabled={isReadOnly}/>
+            </div>
+            
+        </>
+        
+    );
+};
+
+export default React.memo(Ownership);

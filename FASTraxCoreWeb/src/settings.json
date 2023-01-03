@@ -1,0 +1,4 @@
+{
+  "ENV": "Development",
+  "API": "http://localhost:4444/api"
+}

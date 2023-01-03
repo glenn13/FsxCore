@@ -1,0 +1,1 @@
+interface HumanResourceContractType extends StandardEntry { }

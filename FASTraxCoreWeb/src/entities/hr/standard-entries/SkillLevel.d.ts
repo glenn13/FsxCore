@@ -1,0 +1,1 @@
+interface SkillLevel extends StandardEntry { }

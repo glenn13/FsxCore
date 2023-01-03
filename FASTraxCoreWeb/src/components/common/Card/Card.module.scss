@@ -1,0 +1,8 @@
+.selected {
+  transition: all 0.3s ease !important;
+  box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4) !important;
+}
+
+.card {
+  cursor: pointer;
+}

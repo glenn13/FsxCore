@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\routes",
+    "\\src\\views",
+    "\\src\\views\\maintenance",
+    "\\src\\views\\maintenance\\Estimate",
+    "\\src\\views\\maintenance\\WorkOrder",
+    "\\src\\views\\maintenance\\WorkOrder\\generalasset",
+    "\\src\\views\\maintenance\\WorkOrder\\vehicle"
+  ],
+  "PreviewInSolutionExplorer": false
+}

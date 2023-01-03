@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeneralAssetsTab Component renders table of General Asset Groups 1`] = `
+<DocumentFragment>
+  <div
+    class="pt-2"
+  >
+    <div
+      class="flex flex-1 flex-col"
+      data-testid="generalAssetGroups"
+    >
+      <div
+        class="k-widget k-grid"
+        role="grid"
+      >
+        <div
+          class="k-grid-header"
+          role="presentation"
+          style="padding: 0px 0px 0px 0px;"
+        >
+          <div
+            class="k-grid-header-wrap"
+            role="presentation"
+            style="border-width: 0px;"
+          >
+            <table
+              role="presentation"
+            >
+              <colgroup
+                role="presentation"
+              >
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+              </colgroup>
+              <thead
+                role="presentation"
+              >
+                <tr
+                  role="row"
+                >
+                  <th
+                    aria-colindex="1"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Group No
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="2"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      General Asset Name
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="3"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Available Qty
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="4"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Issued Qty
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="5"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Damaged Qty
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="6"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Total Qty
+                    </a>
+                  </th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+        <div
+          class="k-grid-container"
+          role="presentation"
+        >
+          <div
+            class="k-grid-content k-virtual-content"
+            role="presentation"
+          >
+            <div
+              role="presentation"
+              style="position: relative;"
+            >
+              <table
+                class="k-grid-table"
+                role="presentation"
+                tabindex="-1"
+              >
+                <colgroup
+                  role="presentation"
+                >
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                </colgroup>
+                <tbody
+                  role="presentation"
+                >
+                  <tr
+                    class="k-master-row"
+                    role="row"
+                  >
+                    <td
+                      aria-colindex="1"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                    <td
+                      aria-colindex="2"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                    <td
+                      aria-colindex="3"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="4"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="5"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="6"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                  </tr>
+                  <tr
+                    class="k-master-row k-alt"
+                    role="row"
+                  >
+                    <td
+                      aria-colindex="1"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                    <td
+                      aria-colindex="2"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                    <td
+                      aria-colindex="3"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="4"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="5"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="6"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                  </tr>
+                  <tr
+                    class="k-master-row"
+                    role="row"
+                  >
+                    <td
+                      aria-colindex="1"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                    <td
+                      aria-colindex="2"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                    <td
+                      aria-colindex="3"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="4"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="5"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    >
+                      0
+                    </td>
+                    <td
+                      aria-colindex="6"
+                      aria-selected="false"
+                      class=""
+                      colspan="1"
+                      role="gridcell"
+                    />
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="k-height-container"
+              role="presentation"
+            >
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="k-pager-wrap k-pager k-widget k-grid-pager k-pager-sm"
+          role="navigation"
+        >
+          <a
+            class="k-link k-pager-nav k-pager-first k-state-disabled"
+            href="#"
+            title="Go to the first page"
+          >
+            <span
+              aria-label="Go to the first page"
+              class="k-icon k-i-arrow-end-left"
+            />
+          </a>
+          <a
+            class="k-link k-pager-nav k-state-disabled"
+            href="#"
+            title="Go to the previous page"
+          >
+            <span
+              aria-label="Go to the previous page"
+              class="k-icon k-i-arrow-60-left"
+            />
+          </a>
+          <div
+            class="k-pager-numbers-wrap"
+          >
+            <select
+              class="k-dropdown"
+            >
+              <option
+                class="k-link"
+              >
+                1
+              </option>
+            </select>
+            <ul
+              class="k-pager-numbers k-reset"
+            >
+              <li>
+                <a
+                  class="k-link k-state-selected"
+                  href="#"
+                >
+                  1
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a
+            class="k-link k-pager-nav k-state-disabled"
+            href="#"
+            title="Go to the next page"
+          >
+            <span
+              aria-label="Go to the next page"
+              class="k-icon k-i-arrow-60-right"
+            />
+          </a>
+          <a
+            class="k-link k-pager-nav k-pager-last k-state-disabled"
+            href="#"
+            title="Go to the last page"
+          >
+            <span
+              aria-label="Go to the last page"
+              class="k-icon k-i-arrow-end-right"
+            />
+          </a>
+          <div
+            class="k-pager-info k-label"
+          >
+            1 - 3 of 3 items
+          </div>
+        </div>
+      </div>
+    </div>
+    <label
+      class="text-base tracking-wider uppercase h-12 w-full flex items-center px-4 py-2"
+      style="background-color: rgb(242, 242, 242);"
+    >
+      Secondary Details
+    </label>
+    <div
+      class="flex flex-1 flex-col"
+    >
+      <div
+        class="k-widget k-grid"
+        role="grid"
+        style="height: 300px;"
+      >
+        <div
+          class="k-grid-header"
+          role="presentation"
+          style="padding: 0px 0px 0px 0px;"
+        >
+          <div
+            class="k-grid-header-wrap"
+            role="presentation"
+            style="border-width: 0px;"
+          >
+            <table
+              role="presentation"
+            >
+              <colgroup
+                role="presentation"
+              >
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+              </colgroup>
+              <thead
+                role="presentation"
+              >
+                <tr
+                  role="row"
+                >
+                  <th
+                    aria-colindex="1"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Serial No.
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="2"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Asset Status
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="3"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Maintenance Status
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="4"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Type
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="5"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Manufacturer
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="6"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Model
+                    </a>
+                  </th>
+                  <th
+                    aria-colindex="7"
+                    aria-selected="false"
+                    aria-sort="none"
+                    class="k-header "
+                    colspan="1"
+                    role="columnheader"
+                    rowspan="1"
+                  >
+                    <a
+                      class="k-link"
+                    >
+                      Model Year
+                    </a>
+                  </th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+        <div
+          class="k-grid-container"
+          role="presentation"
+        >
+          <div
+            class="k-grid-content k-virtual-content"
+            role="presentation"
+          >
+            <div
+              role="presentation"
+              style="position: relative;"
+            >
+              <table
+                class="k-grid-table"
+                role="presentation"
+                tabindex="-1"
+              >
+                <colgroup
+                  role="presentation"
+                >
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                </colgroup>
+                <tbody
+                  role="presentation"
+                >
+                  <tr
+                    class="k-grid-norecords"
+                  >
+                    <td
+                      colspan="7"
+                    >
+                      No records available
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="k-height-container"
+              role="presentation"
+            >
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="k-pager-wrap k-pager k-widget k-grid-pager k-pager-sm"
+          role="navigation"
+        >
+          <a
+            class="k-link k-pager-nav k-pager-first k-state-disabled"
+            href="#"
+            title="Go to the first page"
+          >
+            <span
+              aria-label="Go to the first page"
+              class="k-icon k-i-arrow-end-left"
+            />
+          </a>
+          <a
+            class="k-link k-pager-nav k-state-disabled"
+            href="#"
+            title="Go to the previous page"
+          >
+            <span
+              aria-label="Go to the previous page"
+              class="k-icon k-i-arrow-60-left"
+            />
+          </a>
+          <div
+            class="k-pager-numbers-wrap"
+          >
+            <select
+              class="k-dropdown"
+            />
+            <ul
+              class="k-pager-numbers k-reset"
+            />
+          </div>
+          <a
+            class="k-link k-pager-nav k-state-disabled"
+            href="#"
+            title="Go to the next page"
+          >
+            <span
+              aria-label="Go to the next page"
+              class="k-icon k-i-arrow-60-right"
+            />
+          </a>
+          <a
+            class="k-link k-pager-nav k-pager-last k-state-disabled"
+            href="#"
+            title="Go to the last page"
+          >
+            <span
+              aria-label="Go to the last page"
+              class="k-icon k-i-arrow-end-right"
+            />
+          </a>
+          <div
+            class="k-pager-info k-label"
+          >
+            0 - 0 of 0 items
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

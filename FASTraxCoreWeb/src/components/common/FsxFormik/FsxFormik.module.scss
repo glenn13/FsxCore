@@ -1,0 +1,70 @@
+.fsxInputWrapper {
+  position: relative;
+  display: flex;
+  margin-top: 16px;
+}
+
+.fsxDatePickerWrapper {
+  flex-direction: column;
+  & span {
+    width: 100% !important;
+  }
+}
+
+.fsxDropdownWrapper {
+  flex-direction: column;
+}
+
+.fsxInputLabel {
+  position: absolute;
+  left: 7px;
+  top: -7px;
+  background: #fff;
+  padding: 0 4px;
+  font-size: 9pt;
+  //   font-family: 'Poppins'; // Cannot find Poppins in the resources
+  font-family: Roboto;
+  font-weight: 300;
+  color: #888787;
+  z-index: 1;
+}
+
+.fsxNumericInput {
+  width: 100%;
+  min-height: 40px;
+
+  input {
+    margin-top: 6px;
+    margin-left: 8px;
+  }
+}
+
+.fsxCheckboxLabel {
+  cursor: pointer;
+  user-select: none;
+  padding: 6px 5px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.fsxCheckboxLabel {
+  cursor: pointer;
+  user-select: none;
+  padding: 6px 5px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.fsxFormikDropTableLoading {
+  transform: scale(0.3) !important;
+  position: relative;
+}
+
+.fsxFormikDropTableLoadingImage {
+  &:before,
+  &:after {
+    border-width: 3px !important;
+  }
+}

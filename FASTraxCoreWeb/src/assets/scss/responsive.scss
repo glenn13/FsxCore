@@ -1,0 +1,115 @@
+@media (max-width: 411px) {
+  .header-nav-title {
+    font-size: 11px;
+  }
+
+  #banner_area h5 {
+    padding-bottom: 10px;
+  }
+
+  #banner_control,
+  #footer_control,
+  .progress-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 970px) {
+  #banner_area h5 {
+    padding-bottom: 10px;
+  }
+
+  aside {
+    position: fixed !important;
+    z-index: 100 !important;
+    display: inherit;
+    box-shadow: 3px 0 13px -3px #6b6b6b !important;
+  }
+
+  #footer_control {
+    display: none !important;
+  }
+
+  .sidebarOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+
+  .header-nav-title {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  .sidebarOverlay.sidebar-mobile-overlay-show {
+    display: block;
+  }
+
+  aside.sidebar-mobile-hide {
+    animation: hidefromRight 0.5s forwards;
+
+    #sidebar-extension ul {
+      visibility: hidden;
+    }
+  }
+
+  aside.sidebar-mobile-show {
+    animation: showfromLeftEdge 0.5s forwards;
+  }
+
+  .right-side-error-page .title {
+    font-size: calc(7em + 1vmin) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .w-col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 791px) and (max-width: 1057px) {
+  #footer_control {
+    display: flex !important;
+    width: auto;
+  }
+  .k-pager-input.k-label {
+    display: none !important;
+  }
+}
+
+#sidebar-extension ul,
+svg#fastrax_logo {
+  transition: visibility 100ms 320ms;
+}
+
+aside.sidebar-desktop-show {
+  animation: slideTransformXShow 0.5s forwards;
+  visibility: visible;
+  transition: width 800ms, visibility 100ms;
+  box-shadow: inherit;
+
+  svg#fastrax_logo {
+    visibility: visible;
+  }
+}
+
+aside.sidebar-desktop-hide {
+  animation: slideTransformXHide 0.5s forwards;
+  width: 0;
+  visibility: hidden;
+  transition: width 800ms, visibility 100ms;
+  box-shadow: inherit;
+
+  #sidebar-extension ul,
+  svg#fastrax_logo {
+    visibility: hidden;
+  }
+}
